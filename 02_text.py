@@ -17,3 +17,9 @@ print("was?!?".upper())
 print("ChrüsIMüsI".lower())
 
 # Du bist 22 Jahre alt.
+
+# Eingaben säubern:
+eingabe = "  Quit  "
+eingabe = eingabe.strip().lower()   # Eingabe säubern
+print("Deine Eingabe war:", eingabe)
+eingabe.gross()
