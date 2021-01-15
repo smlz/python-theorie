@@ -6,7 +6,7 @@
 
 <br>
 
-Wir können Dictionaries brauchen um Daten mithilfe von _**Key**-**Value**-Paaren_ zu speichern. Man kürzt sie oft mit _dict_ ab.  
+Wir können Dictionaries brauchen um Daten mithilfe von `Key`-`Value`-Paaren zu speichern. Man kürzt sie oft mit _dict_ ab.  
 Der englische Name _dictionary_ bedeutet auf deutsch **Lexikon** bzw. **Nachschlagewerk**, was genau der Sinn der Dictionaries in Python ist.  
 Alle Code-Beispiele dieses Markdown-Dokuments sind in der datei [examples.py](https://github.com/MaGaMe19/Markdown/blob/master/dicts/examples.py) zu finden.  
 <br>
@@ -51,7 +51,7 @@ ausgabe = beispiel["key2"]
 ```
 Das Zugreifen auf Values innerhalb von Dictionaries ist vergleichbar mit dem Zugreifen auf Listen, es werden eckige Klammern verwendet. Anders als bei Listen gibt man jedoch den **Namen des Keys** in die eckigen Klammern.  
 <br>
-Eine andere Methode um die Keys bzw. die Values zu erhalten, ist die Verwendung der Funktionen **.keys()**, **.values()** und **.items()**:
+Eine andere Methode um die Keys bzw. die Values zu erhalten, ist die Verwendung der Funktionen `.keys()`, `.values()` und `.items()`:
 
 ```Python
 >>> beispiel.keys()
